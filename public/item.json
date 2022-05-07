@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "ENGINE DIAGNOSTIC",
+        "name": "Banana",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+        "img": "https://i.ibb.co/dgjNQML/banana.jpg"
     },
     {
         "id": 2,
-        "name": "WHEEL ALIGNMENT",
+        "name": "Guava",
         "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "img": "https://i.ibb.co/syR9nW6/guava.png"
     },
     {
         "id": 3,
-        "name": "OIL CHANGING",
+        "name": "Jackfruit",
         "price": "150",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "img": "https://i.ibb.co/KVjDymS/jackfruit.jpg"
     },
     {
         "id": 4,
-        "name": "BRAKE REPARING",
+        "name": "Litchi",
         "price": "180",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+        "img": "https://i.ibb.co/f8mJ2ND/litchi.png"
     },
     {
         "id": 5,
-        "name": "WASH AND GLASSING",
+        "name": "Mango",
         "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+        "img": "https://i.ibb.co/mtZm0vM/mango.jpg"
     },
     {
         "id": 6,
-        "name": "COMPLETE ANALYSIS",
+        "name": "Papaya",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+        "img": "https://i.ibb.co/4SXVLZY/papaya.png"
     }
 ]

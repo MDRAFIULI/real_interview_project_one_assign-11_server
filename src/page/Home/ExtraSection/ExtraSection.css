@@ -2,3 +2,8 @@
     height: 500px;
     border-radius: 10px;
 }
+
+.section-space {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}

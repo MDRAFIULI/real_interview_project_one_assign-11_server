@@ -5,7 +5,7 @@ import section2 from '../../../images/banner/section2.png';
 const ExtraSection = () => {
     return (
         <div className='container'>
-            <section className='row mt-4 mb-4'>
+            <section className='row section-space'>
                 <div className='col-sm-12 col-lg-6 d-flex justify-content-center align-items-center'>
                     <div>
                         <h3>How Famous We Are?</h3>
@@ -16,7 +16,7 @@ const ExtraSection = () => {
                     <img className='w-100 section-img' src={section1} alt="" />
                 </div>
             </section>
-            <section className='row mt-4'>
+            <section className='row section-space'>
 
                 <div className='col-sm-12 col-lg-6'>
                     <img className='w-100 section-img' src={section2} alt="" />

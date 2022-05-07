@@ -1,0 +1,11 @@
+.inventory {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.inventory-img {
+    height: 50%;
+    border: 1px lightgray solid;
+}
