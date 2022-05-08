@@ -10,3 +10,13 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.Go-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Go {
+    margin-top: 50px;
+    width: 25%;
+}

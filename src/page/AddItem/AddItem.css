@@ -1,0 +1,17 @@
+.add-form input {
+    border-radius: 7px;
+    border: 1px lightgreen solid;
+    padding: 4px;
+}
+
+.add-form textarea {
+    border-radius: 7px;
+    border: 1px lightgreen solid;
+    padding: 4px;
+}
+
+.add-submit {
+    border: 0;
+    border-radius: 7px;
+    color: white;
+}

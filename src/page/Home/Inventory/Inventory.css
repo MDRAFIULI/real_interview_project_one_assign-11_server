@@ -9,3 +9,16 @@
     height: 50%;
     border: 1px lightgray solid;
 }
+
+.delete-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-btn {
+    border: 0;
+    font-size: 40px;
+    color: darkorange;
+    background-color: white;
+}

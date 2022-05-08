@@ -1,12 +1,12 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Inventory.css';
-const Inventory = ({ inventory }) => {
+const Inventory = ({ inventory, handleDelete }) => {
     const { _id, supplyer, name, img, description, price } = inventory;
     const navigate = useNavigate();
 
     const navigateToInventoryUpdate = id => {
-        navigate(`/inventory/${id}`);
+        navigate(`/manageInventory/${id}`);
     }
     return (
         <div className='inventory'>
@@ -16,6 +16,10 @@ const Inventory = ({ inventory }) => {
             <p>Price: {price}</p>
             <p><small>{description}</small></p>
             <button onClick={() => navigateToInventoryUpdate(_id)} className='btn btn-success'>stock update: {name}</button>
+            <br />
+            <div className='delete-container'>
+                <span>press for delete:</span><button className='delete-btn' onClick={() => handleDelete(_id)}> X</button>
+            </div>
         </div>
     );
 };
