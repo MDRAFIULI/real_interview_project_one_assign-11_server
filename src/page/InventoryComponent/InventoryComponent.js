@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Inventory.css';
-const Inventory = ({ inventory }) => {
+import './InventoryComponent.css';
+const InventoryComponent = ({ inventory }) => {
     const { _id, supplyer, name, img, description, price } = inventory;
     const navigate = useNavigate();
 
@@ -20,4 +20,4 @@ const Inventory = ({ inventory }) => {
     );
 };
 
-export default Inventory;
+export default InventoryComponent;

@@ -1,50 +1,72 @@
 [
     {
-        "id": 1,
         "name": "Banana",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Meher sagor",
         "supplyer": "Jhonson smith",
         "img": "https://i.ibb.co/dgjNQML/banana.jpg"
     },
     {
-        "id": 2,
         "name": "Guava",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "price": "40",
+        "description": "Kazi",
         "supplyer": "Eddy broke",
         "img": "https://i.ibb.co/syR9nW6/guava.png"
     },
     {
-        "id": 3,
         "name": "Jackfruit",
         "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "sweet jaint jackfrut",
         "supplyer": "Michel jems",
         "img": "https://i.ibb.co/KVjDymS/jackfruit.jpg"
     },
     {
-        "id": 4,
         "name": "Litchi",
         "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "syllet litchi",
         "supplyer": "Gons silk",
         "img": "https://i.ibb.co/f8mJ2ND/litchi.png"
     },
     {
-        "id": 5,
         "name": "Mango",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Maldar mango",
         "supplyer": "monas sogas",
         "img": "https://i.ibb.co/mtZm0vM/mango.jpg"
     },
     {
-        "id": 6,
         "name": "Papaya",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "description": "Red Lady Papayaa",
         "supplyer": "kinam joe",
         "img": "https://i.ibb.co/4SXVLZY/papaya.png"
+    },
+    {
+        "name": "Blackberry",
+        "price": "30",
+        "description": "Sweetberry blackberry",
+        "supplyer": "kinam joe",
+        "img": "https://i.ibb.co/0F3J7pX/blackberry.jpg"
+    },
+    {
+        "name": "Pomegranate",
+        "price": "20",
+        "description": "Soikot pomegranate",
+        "supplyer": "kinam joe",
+        "img": "https://i.ibb.co/x703db1/pomegranate.jpg"
+    },
+    {
+        "name": "Orange",
+        "price": "300",
+        "description": "rim gum orange",
+        "supplyer": "kinam joe",
+        "img": "https://i.ibb.co/nLt0Hzy/orange.jpg"
+    },
+    {
+        "name": "Date",
+        "price": "300",
+        "description": "Ajoa date",
+        "supplyer": "kinam joe",
+        "img": "https://i.ibb.co/5Bf2TyY/date.jpg"
     }
 ]
