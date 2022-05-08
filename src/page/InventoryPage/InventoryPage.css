@@ -1,0 +1,26 @@
+.update-container {
+    margin-left: 90px;
+}
+
+.update-card {
+    width: 50%;
+    border: 1px lightgray solid;
+    display: flex;
+    justify-content: center;
+}
+
+.stored-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.stored-container input {
+    width: 75%;
+    height: 50px;
+}
+
+.stored-container button {
+    width: 25%;
+    height: 50px;
+}
