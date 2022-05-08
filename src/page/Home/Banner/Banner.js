@@ -21,8 +21,8 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Green Lab City Nursery</h3>
+                        <p>A famouse library ,which you are founding.All your favorite plants available here.You can visit our place.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -33,8 +33,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Best Service We Provide.</h3>
+                        <p>We provide not only best sapling.We also provide best service. Like delevery ,introduction and other services. </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -45,9 +45,9 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
+                        <h3>Our Offer </h3>
                         <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            Exciting offer we present our customer. See below in this site. You can gain all offer.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>

@@ -1,0 +1,8 @@
+.site-name {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+.site-name span {
+    color: chocolate
+}

@@ -4,6 +4,7 @@
         "name": "Banana",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "supplyer": "Jhonson smith",
         "img": "https://i.ibb.co/dgjNQML/banana.jpg"
     },
     {
@@ -11,6 +12,7 @@
         "name": "Guava",
         "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "supplyer": "Eddy broke",
         "img": "https://i.ibb.co/syR9nW6/guava.png"
     },
     {
@@ -18,6 +20,7 @@
         "name": "Jackfruit",
         "price": "150",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "supplyer": "Michel jems",
         "img": "https://i.ibb.co/KVjDymS/jackfruit.jpg"
     },
     {
@@ -25,6 +28,7 @@
         "name": "Litchi",
         "price": "180",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "supplyer": "Gons silk",
         "img": "https://i.ibb.co/f8mJ2ND/litchi.png"
     },
     {
@@ -32,6 +36,7 @@
         "name": "Mango",
         "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "supplyer": "monas sogas",
         "img": "https://i.ibb.co/mtZm0vM/mango.jpg"
     },
     {
@@ -39,6 +44,7 @@
         "name": "Papaya",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "supplyer": "kinam joe",
         "img": "https://i.ibb.co/4SXVLZY/papaya.png"
     }
 ]
