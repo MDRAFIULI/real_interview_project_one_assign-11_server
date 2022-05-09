@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+#  Green Lab Nursery
+## Live Site Link:
+ [http://localhost:3000](http://localhost:3000) 
+
+ ### Description:
+ We are provide best deal since 12 year ago.Our services is available in all over the country.We welcome you to visit this site and know about our experience. We also welcome you to visit our places.
+ address: bagdad road,Nobipur,Chattogram,Bangladesh.
+
+
+ # Feature of our website:
+ * single page application by react router.
+ * Authentication system, jwt token, heroku deploy, firebase deploy
+ * 6 inventory loaded in home page but all inventory loaded in Manage page
+ * Load data from mongo db by node js
+ * you can add a item from addItem page and see your items in myItems
+ 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -9,7 +24,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://assignmenteleven-64d09.web.app/](https://assignmenteleven-64d09.web.app/) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
