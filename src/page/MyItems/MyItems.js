@@ -14,7 +14,7 @@ const MyItems = () => {
     useEffect(() => {
         const getMyItems = async () => {
             const email = user?.email;
-            const url = `http://localhost:5000/myItems?email=${email}`;
+            const url = `https://assignment-eleven-server.herokuapp.com/myItems?email=${email}`;
             console.log(url);
 
 

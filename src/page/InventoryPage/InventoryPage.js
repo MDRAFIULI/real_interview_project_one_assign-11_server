@@ -6,7 +6,7 @@ const InventoryPage = () => {
     console.log(id);
     const [inventory, setInventory] = useState({});
     const { name, img, supplyer, price, description } = inventory;
-    const url = `http://localhost:5000/manageInventory/${id}`;
+    const url = `https://assignment-eleven-server.herokuapp.com/manageInventory/${id}`;
     console.log(url);
     console.log(inventory);
     useEffect(() => {

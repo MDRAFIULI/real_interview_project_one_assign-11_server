@@ -8,7 +8,7 @@ const Inventories = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch('http://localhost:5000/manageInventory')
+        fetch('https://assignment-eleven-server.herokuapp.com/manageInventory')
             .then(res => res.json())
             .then(data => {
                 const sixItems = data.slice(0, 6);
@@ -17,7 +17,7 @@ const Inventories = () => {
     }, []);
 
     const handleDelete = id => {
-        const url = `http://localhost:5000/manageInventory/${id}`
+        const url = `https://assignment-eleven-server.herokuapp.com/manageInventory/${id}`
         fetch(url, {
             method: 'DELETE'
         })

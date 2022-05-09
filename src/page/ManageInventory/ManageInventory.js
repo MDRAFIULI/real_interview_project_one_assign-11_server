@@ -11,7 +11,7 @@ const ManageInventory = () => {
 
 
     const handleDelete = id => {
-        const url = `http://localhost:5000/manageInventory/${id}`
+        const url = `https://assignment-eleven-server.herokuapp.com/manageInventory/${id}`
         fetch(url, {
             method: 'DELETE'
         })

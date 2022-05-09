@@ -8,7 +8,7 @@ const AddItem = () => {
     const { register, handleSubmit } = useForm();
     const [user] = useAuthState(auth);
     const onSubmit = data => {
-        const url = `http://localhost:5000/manageInventory`
+        const url = `https://assignment-eleven-server.herokuapp.com/manageInventory`
         fetch(url, {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
