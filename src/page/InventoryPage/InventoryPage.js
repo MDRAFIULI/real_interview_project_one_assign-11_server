@@ -6,7 +6,7 @@ const InventoryPage = () => {
     console.log(id);
     const [inventory, setInventory] = useState({});
     const { name, img, supplyer, price, description } = inventory;
-    const url = `http://localhost:5000/inventory/${id}`;
+    const url = `http://localhost:5000/manageInventory/${id}`;
     console.log(url);
     console.log(inventory);
     useEffect(() => {

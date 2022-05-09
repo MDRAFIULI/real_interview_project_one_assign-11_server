@@ -6,7 +6,7 @@ const Inventory = ({ inventory, handleDelete }) => {
     const navigate = useNavigate();
 
     const navigateToInventoryUpdate = id => {
-        navigate(`/manageInventory/${id}`);
+        navigate(`/inventory/${id}`);
     }
     return (
         <div className='inventory'>

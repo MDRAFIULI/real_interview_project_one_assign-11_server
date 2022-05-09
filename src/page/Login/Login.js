@@ -40,10 +40,6 @@ const Login = () => {
         return <Loading></Loading>
     }
 
-    /* if (token) {
-        navigate('/home');
-    } */
-
 
     const handleLogin = async (event) => {
         event.preventDefault();
@@ -52,6 +48,8 @@ const Login = () => {
         const password = event.target.password.value;
 
         await signInWithEmailAndPassword(email, password);
+        const { data } = await axios.post('http://localhost:5000/login', { email })
+        localStorage.setItem('accesstoken', data?.accessToken)
         navigate(from, { replace: true });
     }
     const resetPassword = async () => {

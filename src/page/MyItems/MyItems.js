@@ -17,16 +17,40 @@ const MyItems = () => {
             const url = `http://localhost:5000/myItems?email=${email}`;
             console.log(url);
 
-            fetch(url/* , {
+
+            try {
+
+                fetch(url, {
+                    headers: {
+                        authorization: `Bearer ${localStorage.getItem('accesstoken')}`
+                    }
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        setMyItems(data)
+                        console.log(data);
+                    })
+
+            }
+            catch (error) {
+                console.log(error)
+                if (error.response.status === 401 || error.response.status === 403) {
+                    signOut(auth);
+                    navigate('/login');
+                }
+            }
+
+
+            /* fetch(url, {
                 headers: {
                     authorization: `Bearer ${localStorage.getItem('accesstoken')}`
                 }
-            } */)
+            })
                 .then(res => res.json())
                 .then(data => {
                     setMyItems(data)
                     console.log(data);
-                })
+                }) */
 
             /* try {
                 const { data } = await axios.get(url, {
