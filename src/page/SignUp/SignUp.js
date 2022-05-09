@@ -22,7 +22,10 @@ const SignUp = () => {
     }
 
     /* const [token] = useToken(user); */
-
+    let displayError;
+    if (error) {
+        displayError = <p className='text-danger'>Error: {error?.message}</p>
+    };
     if (loading || updating) {
         return <Loading></Loading>
     }
@@ -60,6 +63,7 @@ const SignUp = () => {
                     type="submit"
                     value="Sign Up" />
             </form>
+            {displayError}
             <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
             <SocialLogin></SocialLogin>
         </div>

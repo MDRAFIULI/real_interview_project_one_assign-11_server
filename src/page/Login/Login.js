@@ -6,7 +6,6 @@ import auth from '../../firebase.init';
 import Loading from '../Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
 import PageTitle from '../PageTitle/PageTitle';
 import axios from 'axios';
 
@@ -29,7 +28,10 @@ const Login = () => {
     const navigateLogin = () => {
         navigate('/signup');
     }
-
+    let displayError;
+    if (error) {
+        displayError = <p className='text-danger'>Error: {error?.message}</p>
+    };
     /* const [token] = useToken(user); */
 
     if (loading) {
@@ -41,7 +43,7 @@ const Login = () => {
     } */
 
 
-    const handleRegister = async (event) => {
+    const handleLogin = async (event) => {
         event.preventDefault();
         const name = event.target.name.value;
         const email = event.target.email.value;
@@ -52,8 +54,8 @@ const Login = () => {
     }
     return (
         <div className='signup-form'>
-            <h2 style={{ textAlign: 'center' }}>Please Register</h2>
-            <form onSubmit={handleRegister}>
+            <h2 style={{ textAlign: 'center' }}>Please Login</h2>
+            <form onSubmit={handleLogin}>
 
                 <input type="email" name="email" id="" placeholder='Email Address' required />
 
@@ -64,6 +66,7 @@ const Login = () => {
                     type="submit"
                     value="Login" />
             </form>
+            {displayError}
             <p>New to Green Lab? <Link to="/signup" className='text-success pe-auto text-decoration-none' onClick={navigateLogin}>Please Sign Up</Link> </p>
             <SocialLogin></SocialLogin>
         </div>
