@@ -5,15 +5,16 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import Loading from '../Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
-import { toast } from 'react-toastify';
-import PageTitle from '../PageTitle/PageTitle';
 import axios from 'axios';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
 
 
 const Login = () => {
+    const emailRef = useRef('');
     const location = useLocation();
     let from = location.state?.from?.pathname || "/";
     const [
@@ -22,6 +23,7 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
     const navigate = useNavigate();
 
@@ -34,7 +36,7 @@ const Login = () => {
     };
     /* const [token] = useToken(user); */
 
-    if (loading) {
+    if (loading || sending) {
         return <Loading></Loading>
     }
 
@@ -52,12 +54,22 @@ const Login = () => {
         await signInWithEmailAndPassword(email, password);
         navigate(from, { replace: true });
     }
+    const resetPassword = async () => {
+        const email = emailRef.current.value;
+        if (email) {
+            await sendPasswordResetEmail(email);
+            toast('Sent email');
+        }
+        else {
+            toast('please enter your email address');
+        }
+    }
     return (
         <div className='signup-form'>
             <h2 style={{ textAlign: 'center' }}>Please Login</h2>
             <form onSubmit={handleLogin}>
 
-                <input type="email" name="email" id="" placeholder='Email Address' required />
+                <input type="email" name="email" id="" ref={emailRef} placeholder='Email Address' required />
 
                 <input type="password" name="password" id="" placeholder='Password' required />
 
@@ -67,8 +79,11 @@ const Login = () => {
                     value="Login" />
             </form>
             {displayError}
+            <br />
+            <p>Forget Password? <button className='btn btn-link text-primary pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
             <p>New to Green Lab? <Link to="/signup" className='text-success pe-auto text-decoration-none' onClick={navigateLogin}>Please Sign Up</Link> </p>
             <SocialLogin></SocialLogin>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
