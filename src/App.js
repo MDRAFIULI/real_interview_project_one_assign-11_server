@@ -11,6 +11,8 @@ import Login from './page/Login/Login';
 import ManageInventory from './page/ManageInventory/ManageInventory';
 import AddItem from './page/AddItem/AddItem';
 import MyItems from './page/MyItems/MyItems';
+import NotFound from './page/NotFound/NotFound';
+import Blog from './page/Blog/Blog';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
         <Route path='/manageInventory' element={<ManageInventory></ManageInventory>}></Route>
         <Route path='/addItem' element={<AddItem></AddItem>}></Route>
         <Route path='/myItems' element={<MyItems></MyItems>}></Route>
+        <Route path='/blogs' element={<Blog></Blog>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
       <ToastContainer></ToastContainer>
