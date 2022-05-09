@@ -4,69 +4,79 @@
         "price": "300",
         "description": "Meher sagor",
         "supplyer": "Jhonson smith",
-        "img": "https://i.ibb.co/dgjNQML/banana.jpg"
+        "img": "https://i.ibb.co/dgjNQML/banana.jpg",
+        "email": ""
     },
     {
         "name": "Guava",
         "price": "40",
         "description": "Kazi",
         "supplyer": "Eddy broke",
-        "img": "https://i.ibb.co/syR9nW6/guava.png"
+        "img": "https://i.ibb.co/syR9nW6/guava.png",
+        "email": ""
     },
     {
         "name": "Jackfruit",
         "price": "150",
         "description": "sweet jaint jackfrut",
         "supplyer": "Michel jems",
-        "img": "https://i.ibb.co/KVjDymS/jackfruit.jpg"
+        "img": "https://i.ibb.co/KVjDymS/jackfruit.jpg",
+        "email": ""
     },
     {
         "name": "Litchi",
         "price": "180",
         "description": "syllet litchi",
         "supplyer": "Gons silk",
-        "img": "https://i.ibb.co/f8mJ2ND/litchi.png"
+        "img": "https://i.ibb.co/f8mJ2ND/litchi.png",
+        "email": ""
     },
     {
         "name": "Mango",
         "price": "100",
         "description": "Maldar mango",
         "supplyer": "monas sogas",
-        "img": "https://i.ibb.co/mtZm0vM/mango.jpg"
+        "img": "https://i.ibb.co/mtZm0vM/mango.jpg",
+        "email": ""
     },
     {
         "name": "Papaya",
         "price": "300",
         "description": "Red Lady Papayaa",
         "supplyer": "kinam joe",
-        "img": "https://i.ibb.co/4SXVLZY/papaya.png"
+        "img": "https://i.ibb.co/4SXVLZY/papaya.png",
+        "email": ""
     },
     {
         "name": "Blackberry",
         "price": "30",
         "description": "Sweetberry blackberry",
         "supplyer": "kinam joe",
-        "img": "https://i.ibb.co/0F3J7pX/blackberry.jpg"
+        "img": "https://i.ibb.co/0F3J7pX/blackberry.jpg",
+        "email": ""
     },
     {
         "name": "Pomegranate",
         "price": "20",
         "description": "Soikot pomegranate",
         "supplyer": "kinam joe",
-        "img": "https://i.ibb.co/x703db1/pomegranate.jpg"
+        "img": "https://i.ibb.co/x703db1/pomegranate.jpg",
+        "email": ""
     },
     {
         "name": "Orange",
         "price": "300",
         "description": "rim gum orange",
         "supplyer": "kinam joe",
-        "img": "https://i.ibb.co/nLt0Hzy/orange.jpg"
+        "img": "https://i.ibb.co/nLt0Hzy/orange.jpg",
+        "email": ""
     },
     {
         "name": "Date",
         "price": "300",
         "description": "Ajoa date",
         "supplyer": "kinam joe",
-        "img": "https://i.ibb.co/5Bf2TyY/date.jpg"
+        "img": "https://i.ibb.co/5Bf2TyY/date.jpg",
+        "email": ""
     }
 ]

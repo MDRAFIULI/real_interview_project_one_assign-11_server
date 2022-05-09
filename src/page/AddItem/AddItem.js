@@ -1,9 +1,12 @@
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { useForm } from "react-hook-form";
+import auth from '../../firebase.init';
 import './AddItem.css';
 
 const AddItem = () => {
     const { register, handleSubmit } = useForm();
+    const [user] = useAuthState(auth);
     const onSubmit = data => {
         const url = `http://localhost:5000/manageInventory`
         fetch(url, {
@@ -24,6 +27,7 @@ const AddItem = () => {
                 <input className='mb-3' placeholder='price' type="number" {...register("price")} />
                 <input className='mb-3' placeholder='Photo url' type="text" {...register("img")} />
                 <input className='mb-3' placeholder='supplyer' type="text" {...register("supplyer")} />
+                <input className='mb-3' value={user?.email} placeholder='email' type="email" {...register("email")} />
                 <input className='bg-success add-submit' type="submit" value='add Item' />
             </form>
         </div>
