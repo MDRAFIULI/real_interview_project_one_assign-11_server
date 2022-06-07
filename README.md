@@ -8,11 +8,9 @@
 
 
  # Feature of our website:
- * single page application by react router.
- * Authentication system, jwt token, heroku deploy, firebase deploy
- * 6 inventory loaded in home page but all inventory loaded in Manage page
- * Load data from mongo db by node js
- * you can add a item from addItem page and see your items in myItems
+ * The proprietor can manage any inventory which is available in the nursery.
+ * Firebase authentication is activated for login, register & google sign-in.
+ * Users can add new Inventory and delete any stockout product.
  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
